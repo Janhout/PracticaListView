@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo">
+        <item name="android:textColor">#ffb8e7e0</item>
+    </style>
+
+    <style name="titulos">
+        <item name="android:textColor">#ff589eb0</item>
+    </style>
+</resources>
