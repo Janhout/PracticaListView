@@ -306,7 +306,7 @@ public class Principal extends Activity {
                 int dificultad = Integer.valueOf(spDificultad.getSelectedItem().toString());
                 String tipo = spTipo.getSelectedItem().toString();
                 String informacion = etInformacion.getText().toString();
-                boolean expansion = !rbSi.isSelected();
+                boolean expansion = rbSi.isChecked();
                 Bitmap foto = null;
                 datosJuegos.add(new Juego(nombre, publicacion, informacion, tipo, foto, dificultad, puntuacion, expansion));
                 actualizarLista();
@@ -370,7 +370,7 @@ public class Principal extends Activity {
                 int dificultad = Integer.valueOf(spDificultad.getSelectedItem().toString());
                 String tipo = spTipo.getSelectedItem().toString();
                 String informacion = etInformacion.getText().toString();
-                boolean expansion = !rbSi.isSelected();
+                boolean expansion = !rbSi.isChecked();
 
                 datosJuegos.set(posicion, new Juego(nombre, publicacion, informacion, tipo, null, dificultad, puntuacion, expansion));
                 actualizarLista();
