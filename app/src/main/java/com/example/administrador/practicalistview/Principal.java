@@ -163,13 +163,20 @@ public class Principal extends Activity {
 
     /*Método para cargar juegos para hacer las pruebas*/
     private void datosIniciales() {
-        datosJuegos.add(new Juego("Senderos de Gloria", 2001, "OHHH", "Wargame", null, 10, 100, false));
-        datosJuegos.add(new Juego("Pandemia", 1986, "Flipante", "Eurogame", null, 10, 100, true));
-        datosJuegos.add(new Juego("Bohnanza", 2010, getString(R.string.abstracto)+getString(R.string.abstracto)+getString(R.string.abstracto), "Abstracto", null, 9, 87, false));
-        datosJuegos.add(new Juego("Senderos", 2001, "ADFH", "Otro", null, 0, 10, true));
-        datosJuegos.add(new Juego("Pandemia Exp", 1986, "Fsfee", "Ameritrash", null, 10, 0, false));
-        datosJuegos.add(new Juego("Boha", 2012, "Juego Largsdfo", "Temático", null, 9, 87, false));
-        datosJuegos.add(new Juego("Bohah", 2012, "Juego Largsdfo", "Estrategia", null, 9, 87, false));
+        datosJuegos.add(new Juego("Senderos de Gloria", 1999, "Juego sobre la Primera Guerra Mundial",
+                "Wargame", null, 10, 90, false));
+        datosJuegos.add(new Juego("Pandemia", 2007, "¿Serás capaz de salvar el mundo de todas las enfermedades?",
+                "Estrategia", null, 5, 77, false));
+        datosJuegos.add(new Juego("Pandemia: On The Brick", 2010, "Expansión que añade más dificultad y emoción a Pandemia",
+                "Estrategia", null, 6, 82, true));
+        datosJuegos.add(new Juego("Bohnanza", 1997, "Vender más alubias que los demás",
+                "Otro", null, 3, 65, false));
+        datosJuegos.add(new Juego("Un Mundo Sin Fin", 2009, "Si te gusta Los Pilares De La Tierra... Juego parecido pero con unas reglas más pulidas",
+                "Eurogame", null, 5, 70, false));
+        datosJuegos.add(new Juego("Arkham Horror", 2005, "Un clásico cooperativo y solitario. Si te gusta Lovecraft, este puede ser tu juego",
+                "Temático", null, 7, 80, false));
+        datosJuegos.add(new Juego("Claustrophobia", 2009, "Sin comentarios",
+                "Ameritrash", null, 7, 73, false));
     }
 
     /*Método para conseguir el drawable correspondiente al tipo de juego*/
